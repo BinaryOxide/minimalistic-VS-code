@@ -30,7 +30,7 @@ minimalistic-VS-code/
 
 ---
 
-![Preview 1](Previews/preview1.png)
+![Alt text](Preview1.png)
 
 ## Two ways to apply this configuration
 
@@ -160,3 +160,4 @@ This method is the recommended, controlled way. It lets you review and selective
 ---
 
 *Prepared professionally by BinaryOxide — keep configs minimal, auditable, and portable.*
+
