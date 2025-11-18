@@ -1,0 +1,188 @@
+{
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block",
+  "editor.wordWrap": "on",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "hediet.vscode-drawio.resizeImages": null,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "terminal.explorerKind": "external",
+  "peacock.favoriteColors": [
+      {
+          "name": "Angular Red",
+          "value": "#dd0531"
+      },
+      {
+          "name": "Azure Blue",
+          "value": "#007fff"
+      },
+      {
+          "name": "JavaScript Yellow",
+          "value": "#f9e64f"
+      },
+      {
+          "name": "Mandalorian Blue",
+          "value": "#1857a4"
+      },
+      {
+          "name": "Node Green",
+          "value": "#215732"
+      },
+      {
+          "name": "React Blue",
+          "value": "#61dafb"
+      },
+      {
+          "name": "Something Different",
+          "value": "#832561"
+      },
+      {
+          "name": "Svelte Orange",
+          "value": "#ff3d00"
+      },
+      {
+          "name": "Vue Green",
+          "value": "#42b883"
+      }
+  ],
+  "explorer.confirmDelete": false,
+  "code-runner.saveFileBeforeRun": true,
+  "editor.minimap.size": "fit",
+  "workbench.colorTheme": "Dainty – One Dark Pro (chroma 3, lightness 1)",
+  "code-runner.runInTerminal": true,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "600",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabSizingFixedMaxWidth": 70,
+  "workbench.editor.showTabs": "single",
+  "editor.columnSelection": true,
+  "C_Cpp.default.cppStandard": "c++23",
+  "window.openFilesInNewWindow": "on",
+  "window.newWindowDimensions": "maximized",
+  "window.openFoldersInNewWindow": "on",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.tokenColorCustomizations": {
+      "strings": "#ff6363",
+      "keywords": "#ff6363",
+      "types": "#f73f3f",
+      "variables": "#ffffffb0",
+      "comments": "#00ff95",
+      "numbers": "#ff6868",
+      "functions": "#00eeff",
+      "textMateRules": []
+  },
+  "[*Light*]": {
+      "textMateRules": [
+          {
+              "scope": "ref.matchtext",
+              "settings": {
+                  "foreground": "#000"
+              }
+          }
+      ]
+  },
+  "[*Dark*]": {
+      "textMateRules": [
+          {
+              "scope": "ref.matchtext",
+              "settings": {
+                  "foreground": "#fff"
+              }
+          }
+      ]
+  },
+  "better-comments.tags": [
+      {
+          "tag": "!",
+          "color": "#ff1a75",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+      },
+      {
+          "tag": "?",
+          "color": "#3498DB",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+      },
+      {
+          "tag": "//",
+          "color": "#474747",
+          "strikethrough": true,
+          "backgroundColor": "transparent"
+      },
+      {
+          "tag": "todo",
+          "color": "#FF8C00",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+      },
+      {
+          "tag": "*",
+          "color": "#98C379",
+          "strikethrough": false,
+          "backgroundColor": "transparent"
+      }
+  ],
+  "vscode_custom_css.imports": [
+      "file:///c:/Users/OBITO/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.4/dist/updateHandler.js"
+  ],
+  "liveServer.settings.CustomBrowser": "chrome",
+  "open-in-browser.default": "chrome",
+  "workbench.settings.applyToAllProfiles": [
+  
+  ],
+  "apc.activityBar": {},
+  "workbench.activityBar.location": "top",
+  "oneDarkPro.bold": true,
+  "oneDarkProMariana.bold": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": false,
+  "apc.sidebar.titlebar": {},
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vikings-icon-theme",
+  "workbench.colorCustomizations": {
+      "list.activeSelectionForeground": "#22e985",
+      "list.activeSelectionBackground": "#303344",
+      "sideBar.background": "#0b182a",
+      "titleBar.activeBackground": "#303344",
+      "titleBar.activeForeground": "#ffffff",
+      "titleBar.inactiveBackground": "#303344",
+      "titleBar.inactiveForeground": "#ffffff",
+      "sideBarSectionHeader.background": "#0b182a",
+      "sideBarSectionHeader.foreground": "#FFFFFF",
+      "sideBar.dropBackground": "#0b182a",
+      "titleBar.border": "#444444",
+      "sideBar.border": "#303344"
+  },
+  "editor.fontSize": 16,
+  "workbench.statusBar.visible": false,
+  "python.defaultInterpreterPath": "",
+  "terminal.integrated.automationProfile.windows": {},
+  "workbench.editorLargeFileConfirmation": 100024,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "workbench.editorAssociations": {
+      "*.copilotmd": "vscode.markdown.preview.editor",
+      "*.exe": "default"
+  },
+  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
+  "codestream.serverUrl": "https://codestream-api-v2-us1.service.newrelic.com",
+  "editor.mouseWheelZoom": true,
+  "C_Cpp_Runner.cppStandard": "c++23",
+  "glassit.alpha": 220,
+  "c-cpp-compile-run.run-in-external-terminal": true,
+  "json.schemas": [
+      
+  ],
+
+
+
+
+  
+  "json by @binaryoxide -> github": "",
+}
