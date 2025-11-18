@@ -4,8 +4,7 @@
 
 This repository contains everything needed to reproduce a clean, productivity-focused VS Code look and behaviour. It includes two ways to apply the setup: using the full exported **profile** (fast, less professional) or manually applying the **settings.json** and **keybindings.json** (recommended for control and portability).
 
----
-
+![Alt text](preview1.png)
 ## Repository structure
 
 ```
@@ -28,9 +27,6 @@ minimalistic-VS-code/
 └── README.md                # this file
 ```
 
----
-
-![Alt text](Preview1.png)
 
 ## Two ways to apply this configuration
 
@@ -128,28 +124,6 @@ This method is the recommended, controlled way. It lets you review and selective
 * **Auditability:** You can review and version-control small JSON files easily.
 * **Portability:** Easier to apply parts of the config across machines and teams.
 
----
-
-## Troubleshooting & common notes
-
-* **`code` command not found:** In VS Code Command Palette search `Shell Command: Install 'code' command in PATH` and run it.
-* **CRLF / LF warnings:** Windows Git may warn `LF will be replaced by CRLF`. Acceptable — to control behavior use:
-
-  ```bash
-  git config --global core.autocrlf true
-  ```
-* **Conflicts when pushing to GitHub:** If Git rejects a push because the remote has changes, consider pulling with `--allow-unrelated-histories` or force-pushing if you intentionally want to overwrite the remote.
-* **Keep your email private in commits:** Use GitHub no‑reply in `git config --global user.email "USERNAME@users.noreply.github.com"`.
-
----
-
-## Contributing
-
-* If you improve a setting or add a useful extension, please open a PR. Keep changes small and documented.
-* When adding screenshots to `Previews/`, use 1280×720 or 1920×1080 for clear images.
-
----
-
 ## Changelog
 
 * **v1.0** — Initial repo layout and baseline settings.
@@ -160,4 +134,5 @@ This method is the recommended, controlled way. It lets you review and selective
 ---
 
 *Prepared professionally by BinaryOxide — keep configs minimal, auditable, and portable.*
+
 
